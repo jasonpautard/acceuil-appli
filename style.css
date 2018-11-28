@@ -1,0 +1,54 @@
+.btn-success {
+      background-color: #0000FF;
+      border: none;
+}
+
+.btn-light {
+      background-color: #FF6C2F;
+      border: none;
+      color: #FFF;
+}
+
+.btn-success:not(:disabled):not(.disabled):active,
+.btn-success:not(:disabled):not(.disabled):active:focus,
+.btn-success:not(:disabled):not(.disabled):focus {
+      background-color: #0000FF;
+      border-color: #0000FF;
+      box-shadow: none;
+}
+
+.btn-success:hover{
+  background-color: #FF6C2F;
+}
+
+.btn-light:not(:disabled):not(.disabled):active,
+.btn-light:hover,
+.btn-light:not(:disabled):not(.disabled):active:focus,
+.btn-light:not(:disabled):not(.disabled):focus {
+      background-color: #FF6C2F;
+      border-color: #FFF;
+      border: 3px;
+      box-shadow: none;
+      color: #FFF;
+}
+
+#down {
+  background-color: #0000FF;
+  height: 500px;
+}
+
+.pt-50 {
+  padding-top: 150px;
+}
+
+.pt-5 {
+  padding-top: 50px;
+}
+
+.pb-50 {
+  padding-bottom: 150px;
+}
+
+.pb-5 {
+  padding-bottom: 50px;
+}
